@@ -29,8 +29,15 @@
 </footer>
 <script>
 'use strict';
+// ifを使ってみる
 
-console.log(window.confirm('ゲームスタート！準備はいい？'));
+if (window.confirm('ゲームスタート！準備はいい？')) {
+    window.alert("スタート")
+} else if ( window.confirm('ゲームスタート！準備はいい？')) {
+    window.alert("START　2回目")
+}
+
+// console.log(window.confirm('ゲームスタート！準備はいい？'));
 </script>
 </body>
 </html>
